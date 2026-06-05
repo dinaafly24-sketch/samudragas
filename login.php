@@ -189,6 +189,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <a href="lupa_password.php">Lupa password?</a>
             </div>
             <button class="btn-login" type="submit">Masuk</button>
+            <div class="daftar text-center mt-3">
+                Belum punya akun? <a href="register.php">Daftar di sini</a>
+            </div>
         </form>
 
         <!-- FORM ADMIN -->
@@ -199,10 +202,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input class="inp" type="password" name="password" placeholder="Password">
             <button class="btn-login" type="submit">Masuk</button>
         </form>
-
-        <div class="daftar text-center mt-3">
-            Belum punya akun? <a href="register.php">Daftar di sini</a>
-        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

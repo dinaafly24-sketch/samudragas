@@ -232,7 +232,7 @@ $no_sj = str_pad($p['no_sj'], 4, '0', STR_PAD_LEFT);
         @media print {
             body { background: #fff; padding: 0; }
             .btn-bar { display: none; }
-            .struk { box-shadow: none; width: 80mm; }
+            .struk { box-shadow: none; width: 58mm; }
         }
     </style>
 </head>
